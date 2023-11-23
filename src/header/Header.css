@@ -1,0 +1,68 @@
+ .header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction:row;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+ }
+
+ .logo{
+    padding-left: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 23, 23);
+ }
+
+ .signin{
+    width: 400px;
+    padding-right:100px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .signin p{
+    cursor: pointer;
+ }
+
+ .signin p:hover{
+    transform: scale(1.1);
+ }
+
+ .nav-list{
+    padding-left: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    list-style-type: none;
+ }
+
+ .nav-list li{
+    cursor: pointer;
+ }
+
+ .nav-list li:hover{
+    transform: scale(1.4);
+ }
+
+
+ .home-active{
+    transform: scale(1.4);
+    color: rgb(237, 72, 22);
+ }
+
+ .booking-active{
+    transform: scale(1.4);
+    color: rgb(237, 72, 22);
+}
